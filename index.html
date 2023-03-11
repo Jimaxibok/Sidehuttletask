@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=".//style.css">
+    <title>Form Document</title>
+</head>
+<body>
+ <form onsubmit="myFunction()">
+    <h1>Bio-Dat form</h1>
+     <div class="container">
+        <label for="Name" class="name"  >Name</label>
+        <input type="text" class="nameInput" required >
+        <br>
+        <label for="Email" class="email">Email</label>
+        <input type="email" class="emailInput" required>
+        <br>
+        <label for="phonenumber" class="phone">Phone number </label>
+        <input type="number" class="phoneInput" required>
+        <br>
+       <div>
+        <input type="radio" id="male" value="Male">
+          <label for="html">Male</label>
+          <input type="radio" id="female" value="Female">
+          <label for="css">Female</label><br>  
+       </div>
+  <input type="submit" value="Submit" >
+ </form>
+
+
+ <script>
+    function myFunction() {
+      alert("The form was submitted successfully");
+    }
+    </script>
+</body>
+</html>
