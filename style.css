@@ -2,6 +2,10 @@
     padding: 0;
     margin:0;
 }
+body{
+    background: chocolate;
+    align-items: center;
+}
 
 form{
      /* margin: 3rem; */
@@ -9,18 +13,50 @@ form{
 }
 
 form h1{
-    color: red;
+    color: blue;
     text-align: center;
 }
 
 label {
-    margin-left: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue
 }
 
 
 input{
     margin-left: 20px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: block;
     text-align: center;
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    border:2px solid red; 
+    align-items: center;
+
+}
+
+#gender{
+    margin-left: 2rem;
+    color: blue;
+}
+
+.radioGender{
+    /* font-size: 4px; */
+    /* border: 2px solid red ; */
+    display: inline-flex;
+    margin-left: 1rem;
+}
+.radioGender label{
+    padding-top: 6px;
+    padding-right: -20px;
+}
+
+form{
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
 }
