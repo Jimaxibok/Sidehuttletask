@@ -1,62 +1,73 @@
 * {
     padding: 0;
     margin:0;
-}
-body{
-    background: chocolate;
-    align-items: center;
+    background: gray;
 }
 
-form{
-     /* margin: 3rem; */
-     /* text-align: center; */
-}
 
-form h1{
-    color: blue;
-    text-align: center;
+ h1{
+    /* text-align: center; */
+    padding:1rem;
+     
 }
 
 label {
-    align-items: center;
+    /* align-items: center; */
     margin-left: 2rem;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blue
+    color: blue;
+    line-height: 10px;
 }
 
 
-input{
+.textInput{
     margin-left: 20px;
     /* margin-top: 2rem; */
     display: block;
     text-align: center;
-    width: 50%;
+    width: 70%;
     height: 2rem;
     border-radius: 5px;
     border:2px solid red; 
     align-items: center;
+    background: chocolate;
 
 }
+
 
 #gender{
     margin-left: 2rem;
     color: blue;
-}
-
-.radioGender{
-    /* font-size: 4px; */
-    /* border: 2px solid red ; */
-    display: inline-flex;
-    margin-left: 1rem;
-}
-.radioGender label{
-    padding-top: 6px;
-    padding-right: -20px;
+    font-size:20px ;
 }
 
 form{
     align-items: center;
     margin: auto;
-    padding: 2rem;
+    /* padding: 2rem; */
+}
+.formContainer{
+    /* border: 2px solid red; */
+    align-items: center;    
+
+}
+.container{
+    padding: 40px;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    align-self: center;
+    padding-left: 10rem;
+    
+}
+
+.submitButton{
+    margin: 20px;
+    color: blue;
+    background: red;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px;
 }

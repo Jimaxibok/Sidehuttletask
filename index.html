@@ -8,29 +8,31 @@
     <title>Form Document</title>
 </head>
 <body>
- <form onsubmit="myFunction()">
-    <h1>Bio-Dat form</h1>
+ <form onsubmit="myFunction()" class="formContainer">
+    
      <div class="container">
+        <h1>Bio-Dat form</h1>
         <label for="Name" class="name"  >Name</label>
-        <input type="text" class="nameInput" required >
+        <input type="text" class="textInput" required >
         <br>
         <label for="Email" class="email">Email</label>
-        <input type="email" class="emailInput" required>
+        <input type="email" class="textInput" required>
         <br>
         <label for="phonenumber" class="phone">Phone number </label>
-        <input type="number" class="phoneInput" required>
+        <input type="number" class="textInput" required>
         <br>
-       <div>
+       <!-- <div>
            <p id="gender">Gender</p>
-           <div class="radioGender">
-            <input type="radio"  value="Male">
+           <div >
+            <input type="radio"  value="Male" class="radioGender">
               <label for="html">Male</label>
-              <input type="radio"  value="Female">
+              <input type="radio"  value="Female" class="radioGender">
               <label for="css">Female</label><br>  
            </div>
-        
+         -->
+         <input type="submit" value="Submit"  class="submitButton">
        </div>
-  <input type="submit" value="Submit" >
+  
  </form>
 
 
